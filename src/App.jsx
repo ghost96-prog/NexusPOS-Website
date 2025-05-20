@@ -120,7 +120,7 @@ const App = () => {
             transition={{ duration: 1 }}
           >
             <img
-              src="/assets//nexusIcon.png"
+              src="/assets/nexusIcon.png"
               className="logo-image"
               alt="logo-picture"
             />
@@ -260,7 +260,7 @@ const App = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <img src="/assets//imagesys.jpg" alt="POS Device" />
+            <img src="assets/imagesys.jpg" alt="POS Device" />
           </motion.div>
         </section>
 
@@ -421,7 +421,7 @@ const App = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <img src="/assets//nexuscoverpos.png" alt="Our Team" />
+              <img src="/assets/nexuscoverpos.png" alt="Our Team" />
             </motion.div>
           </div>
 
@@ -434,7 +434,7 @@ const App = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <img src="/assets//jermaine.jpg" alt="Company Owner" />
+              <img src="/assets/jermaine.jpg" alt="Company Owner" />
             </motion.div>
             <motion.div
               className="owner-info"
@@ -598,7 +598,7 @@ const productsData = [
     price: 149,
     description:
       "Complete Android POS system with built-in receipt printer and cash drawer",
-    image: "/assets//pos-terminal.png",
+    image: "/assets/pos-terminal.png",
     specs: [
       "6-inch touchscreen display",
       "3G Network",
@@ -615,7 +615,7 @@ const productsData = [
     price: 179,
     description:
       "Complete Android POS system with built-in receipt printer and cash drawer",
-    image: "/assets//v2.jpg",
+    image: "/assets/v2.jpg",
     specs: [
       "6-inch HD touchscreen",
       "4G Network",
@@ -631,7 +631,7 @@ const productsData = [
     price: 229,
     description:
       "10-inch tablet with POS software and payment processing capabilities",
-    image: "/assets//nexus1.jpg",
+    image: "/assets/nexus1.jpg",
     specs: [
       "------COMES WITH------",
       "10.1-inch Full HD display Tablet with:",
@@ -651,7 +651,7 @@ const productsData = [
     name: "POS Software License",
     price: 59,
     description: "Annual subscription for our cloud-based POS software",
-    image: "/assets//pos-software.png",
+    image: "/assets/pos-software.png",
     specs: [
       "Cloud-based management",
       "Real-time sales tracking",
@@ -669,39 +669,39 @@ const installationsData = [
     location: "Bulawayo City Center",
     description:
       "Installed at a busy retail store in the heart of Bulawayo with 2 Tablet POS terminals",
-    image: "/assets//installation1.jpg",
+    image: "/assets/installation1.jpg",
   },
   {
     id: 2,
     location: "Bindura CBD",
     description: "Grocery Shop installation with a single Tablet POS terminal",
-    image: "/assets//installation2.jpg",
+    image: "/assets/installation2.jpg",
   },
   {
     id: 3,
     location: "Harare, Westlea",
     description: "Installed for 4  GlamZone Hair and Cosmentics shops",
-    image: "/assets//installation3.jpg",
+    image: "/assets/installation3.jpg",
   },
   {
     id: 4,
     location: "Beitbridge Supermarket",
     description:
       "A small supermarket installation with inventory management integration",
-    image: "/assets//installation4.jpg",
+    image: "/assets/installation4.jpg",
   },
   {
     id: 5,
     location: "Bulawayo CBD",
     description: "A small shop installation with inventory management system",
-    image: "/assets//installation5.jpg",
+    image: "/assets/installation5.jpg",
   },
   {
     id: 6,
     location: "Bulawayo CBD",
     description:
       "A small motor spares shop installation with inventory management system",
-    image: "/assets//installation6.jpg",
+    image: "/assets/installation6.jpg",
   },
 ];
 
@@ -738,19 +738,19 @@ const directorsData = [
     id: 1,
     name: "Germany Mangezi",
     position: "Technical Director",
-    image: "/assets//jermaine.jpg",
+    image: "/assets/jermaine.jpg",
   },
   {
     id: 2,
     name: "Nyasha Chikumbu",
     position: "Operations Director",
-    image: "/assets//hun.jpg",
+    image: "/assets/hun.jpg",
   },
   {
     id: 3,
     name: "Sheila Nyandoro",
     position: "Sales Director",
-    image: "/assets//user.png",
+    image: "/assets/user.png",
   },
 ];
 
