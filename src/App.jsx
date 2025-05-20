@@ -145,7 +145,7 @@ const App = () => {
             ))}
           </div>
           <motion.a
-            href="https://wa.me/0783556354"
+            href="https://wa.me/+263783556354"
             className="whatsapp-button"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -181,7 +181,7 @@ const App = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <FaWhatsapp /> Chat on WhatsApp: 0783556354
+                <FaWhatsapp /> Chat on WhatsApp: +263783556354
               </motion.a>
             </motion.div>
           </motion.div>
