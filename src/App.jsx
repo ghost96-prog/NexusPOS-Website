@@ -21,7 +21,7 @@ const App = () => {
   const [showDemoModal, setShowDemoModal] = useState(false);
   const [expandedProduct, setExpandedProduct] = useState(null);
   const [currentInstallation, setCurrentInstallation] = useState(0);
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -144,6 +144,43 @@ const App = () => {
               </Link>
             ))}
           </div>
+          {/* Mobile menu button */}
+          <button
+            className="menu-toggle"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <FaTimes /> : <span>☰</span>}
+          </button>
+
+          {/* Mobile menu links - shown only when isMenuOpen is true */}
+          <div className={`mobile-nav-links ${isMenuOpen ? "open" : ""}`}>
+            {[
+              "home",
+              "products",
+              "installations",
+              "services",
+              "about",
+              "contact",
+            ].map((item) => (
+              <Link
+                key={item}
+                to={`#${item}`}
+                className={`nav-link ${activeTab === item ? "active" : ""}`}
+                onClick={() => {
+                  scrollToSection(item);
+                  setIsMenuOpen(false);
+                }}
+              >
+                {item.charAt(0).toUpperCase() + item.slice(1)}
+              </Link>
+            ))}
+            <a
+              href="https://wa.me/+263783556354"
+              className="whatsapp-button mobile-whatsapp"
+            >
+              <FaWhatsapp /> Contact Us
+            </a>
+          </div>
           <motion.a
             href="https://wa.me/+263783556354"
             className="whatsapp-button"
@@ -260,7 +297,7 @@ const App = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <img src="assets/imagesys.jpg" alt="POS Device" />
+            <img src="/assets/imagesys.jpg" alt="POS Device" />
           </motion.div>
         </section>
 
