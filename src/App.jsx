@@ -632,7 +632,7 @@ const productsData = [
   {
     id: 1,
     name: "All-in-One POS Terminal",
-    price: 149,
+    price: 100,
     description:
       "Complete Android POS system with built-in receipt printer and cash drawer",
     image: "/assets/pos-terminal.png",
@@ -649,7 +649,7 @@ const productsData = [
   {
     id: 2,
     name: "All-in-One POS Terminal, V2",
-    price: 179,
+    price: 135,
     description:
       "Complete Android POS system with built-in receipt printer and cash drawer",
     image: "/assets/v2.jpg",
